@@ -4,7 +4,7 @@ int main()
 {
     int size = 5;
     int arr[size];
-    printf("inqlude 5 numbers");
+    printf("inqlude 5 numbers\n");
     int sum = 0;
     for(int i = 0; i < size;i++)
     {
