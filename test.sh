@@ -3,7 +3,7 @@ gcc Number_Analyzer.c -o number_analyzer || exit 1
 
 ./main.program > output.txt
 
-grep -q "Hello, GitHub!" output.txt || exit 1
+grep -q "Hello, WRONG:!" output.txt || exit 1
 grep -q "Hello World" output.txt || exit 1
 
 
