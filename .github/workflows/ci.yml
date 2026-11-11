@@ -1,0 +1,14 @@
+name: C Project CI
+
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Get repository code
+        uses: actions/checkout@v4
+      - name: run tests
+        run: bash test.sh
+     
