@@ -1,0 +1,4 @@
+*.out
+*.program
+/program
+/output.txt
